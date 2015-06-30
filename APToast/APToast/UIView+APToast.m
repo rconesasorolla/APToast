@@ -135,7 +135,7 @@
         case APToastPositionBottom:
             return CGPointMake(w / 2.f, h - toastHeight / 2.f - padding);
         case APToastPositionTop:
-            return CGPointMake(w / 2.f, toastHeight / 2.f + padding);
+            return CGPointMake(w / 2.f, (toastHeight / 2.f + padding)+14);
         case APToastPositionCenter:
             return CGPointMake(w / 2.f, h / 2.f);
     }
